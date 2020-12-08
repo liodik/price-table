@@ -20,10 +20,10 @@
   height: 770px;
   background-color: #334247; }
   .price-card__title {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
-    text-align: center;
-    width: 100px;
-    height: 64px; }
+    text-align: center; }
   .price-card__title-title {
     font-weight: 700;
     font-size: 35px;
@@ -77,9 +77,17 @@
 .button-basic {
   background-color: #5bb189; }
 
+.title-basic {
+  width: 100px;
+  height: 64px; }
+
 .card-business {
   position: relative;
   overflow: hidden; }
+
+.title-business {
+  width: 164px;
+  height: 64px; }
 
 .price-business,
 .button-business {
@@ -102,5 +110,9 @@
 .price-webshop,
 .button-webshop {
   background-color: #ec632a; }
+
+.title-webshop {
+  width: 176px;
+  height: 64px; }
 
 /*# sourceMappingURL=styles.css.map */

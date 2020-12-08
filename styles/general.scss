@@ -7,10 +7,10 @@
   background-color: $card-background-color;
 
   &__title {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     text-align: center;
-    width: 100px;
-    height: 64px;
   }
   &__title-title {
     font-weight: $text-bold;
