@@ -29,8 +29,8 @@
     font-size: 35px;
     line-height: 43px; }
   .price-card__title-subtitle {
-    font-size: 12px;
-    line-height: 14px; }
+    font-size: 20px;
+    font-weight: 300; }
   .price-card__price {
     display: flex;
     align-items: center;
@@ -112,6 +112,7 @@
   background-color: #ec632a; }
 
 .title-webshop {
+  margin-top: 3px;
   width: 176px;
   height: 64px; }
 
