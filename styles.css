@@ -77,9 +77,27 @@
 .button-basic {
   background-color: #5bb189; }
 
+.card-business {
+  position: relative;
+  overflow: hidden; }
+
 .price-business,
 .button-business {
   background-color: #3a6ba5; }
+
+.promo {
+  position: absolute;
+  left: 264px;
+  top: 31px;
+  transform: rotate(45deg);
+  width: 147px;
+  height: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 25px;
+  background-color: #dc3f45; }
 
 .price-webshop,
 .button-webshop {
