@@ -1,0 +1,73 @@
+.price-card {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 0 40px 0;
+  width: 380px;
+  height: 770px;
+  background-color: $card-background-color;
+
+  &__title {
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    height: 64px;
+  }
+  &__title-title {
+    font-weight: $text-bold;
+    font-size: 35px;
+    line-height: 43px;
+  }
+  &__title-subtitle {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    height: 105px;
+    background-color: chartreuse;
+    font-weight: $text-bold;
+    font-size: 55px;
+    line-height: 67px;
+  }
+  &__description {
+    margin: 40px auto;
+    width: 327px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+  &__options-list {
+    margin: 0;
+    padding: 0;
+  }
+  &__options-list-item {
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 15px;
+    list-style-type: none;
+  }
+  &__options-list-item:nth-child(odd) {
+    background-color: $odd-list-item-background-color;
+  }
+
+  &__checkmarck {
+    margin: 0 22px;
+    width: 15px;
+    height: 13px;
+  }
+  &__oreder-btn {
+    width: 154px;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 39px;
+    border: 0;
+    padding: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    color: $primary-font-color;
+  }
+}
