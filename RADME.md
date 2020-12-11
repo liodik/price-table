@@ -2,9 +2,9 @@
 
 ### Quick start
 
-[link to page] (https://liodik.github.io/price-table/)
+[link to page](https://liodik.github.io/price-table/)
 
-The teach task is:
+##### The teach task is:
 
 - HTML 5
 - CSS 3
